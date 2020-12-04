@@ -1,33 +1,25 @@
-# Youtube API Search
+# Youtube API Search with Node.JS and React.JS
 
-## Server
+### Build a API that consumes YouTube API with Node.js and develop a frontend that list the vidoes from the API. For more detail, please follow the instruction and checkout try it out 😇
 
-[X] Develop an API that consumes the YouTube API
+## Homepage
 
-[] The API is be able to handle paging parameters such as the quantity of results requested and page numbers
+![homepage](client/src/homepage.png)
 
-[x] The API is be able to receive a word or phrase to look for videos within the selected YouTube channel
+## Instructions
 
-[] If the API does not receive any parameters it must return 12 results (videos)
+```text
+Step 1: Inside the server folder, change the name of .env.sample to .env and insert your Youtube API Key.
 
-[x] The format of the results must be JSON
+YOUTUBE_API_KEY=your-api-key
 
-[x] Please develop this is Node.js
+Step 2: Go to the client folder in your terminal and run the app by typing:
 
-## Client
+NPM Start
 
-[X] Please develop a frontend that consumes the API
+Step 3: Go to the server folder in your terminal and run the server by typing:
 
-[X] The page show a search box that allows a user to look for videos
+npm run dev
 
-[x] When a search is executed the results shown in a grid, but the page must not reload entirely, only the grid should reload.
-
-[x] The default of the site must show the 12 most recent videos of the channel. When clicked a video play in a modal
-
-[Y] The video listing show a video’s thumbnail, title, and description
-
-[] The page must show the videos in three columns by default, and give users the option of seeing a fourth column
-
-[x] The video listings must have different pages, so you can navigate through the totality of search results
-
-[x] displays correctly in a desktop or mobile environment
+Step 4: Open your browser and enter: http://localhost:3000/
+```
