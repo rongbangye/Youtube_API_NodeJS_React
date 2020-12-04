@@ -1,0 +1,28 @@
+.pagination {
+  width: 100vw;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.page-item {
+  margin: 0 10px;
+}
+
+.page-item > button {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  width: 30px;
+}
+
+.page-item button:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: none;
+}
