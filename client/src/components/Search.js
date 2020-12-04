@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/searchBar.css';
+import SearchIcon from '@material-ui/icons/Search';
 
 const Search = ({ searchVideo }) => {
   const [searchTerm, setSearchTerm] = useState([]);
@@ -27,7 +28,7 @@ const Search = ({ searchVideo }) => {
           onClick={() => searchVideo(searchTerm)}
           className='search-button'
         >
-          Search
+          <SearchIcon />
         </button>
       </div>
     </div>

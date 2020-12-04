@@ -1,11 +1,11 @@
 import Header from './Header';
-import Fetch from './Fetch';
+import Homepage from './Homepage';
 
 function App() {
   return (
     <div className='App'>
       <Header />
-      <Fetch />
+      <Homepage />
     </div>
   );
 }

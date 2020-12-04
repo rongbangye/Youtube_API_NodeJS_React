@@ -11,11 +11,11 @@ const Pagination = ({ videosPerPage, totalVideos, paginate }) => {
   return (
     <div className='pagination'>
       <ul className='page'>
-        {pageNumbers.map((page) => (
-          <li className='page-item'>
-            <a onClick={() => paginate(page)} href='!#' className='page-link'>
+        {pageNumbers.map((page, index) => (
+          <li className='page-item' key={index}>
+            <button onClick={() => paginate(page)} className='page-link'>
               {page}
-            </a>
+            </button>
           </li>
         ))}
       </ul>

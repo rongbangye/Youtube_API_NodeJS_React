@@ -13,13 +13,16 @@
   margin: 0 10px;
 }
 
-.page-item a {
+.page-item > button {
   font-size: 18px;
+  font-weight: bold;
   color: black;
   text-decoration: none;
+  width: 30px;
 }
 
-.page-item a:hover {
+.page-item button:hover {
+  cursor: pointer;
   color: red;
   text-decoration: none;
 }
