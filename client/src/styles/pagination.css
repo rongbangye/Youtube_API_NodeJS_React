@@ -1,0 +1,25 @@
+.pagination {
+  width: 100vw;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.page-item {
+  margin: 0 10px;
+}
+
+.page-item a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.page-item a:hover {
+  color: red;
+  text-decoration: none;
+}

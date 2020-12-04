@@ -1,0 +1,24 @@
+.videos {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.showVideo {
+  text-decoration: none;
+  color: black;
+}
+
+.showVideo:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
+.video_card {
+  width: 320px;
+  margin: 0 auto;
+}
